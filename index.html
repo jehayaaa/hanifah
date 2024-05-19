@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hani's Shop</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Accessories by Hani<span></span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+     <!--Header section ends-->
+
+
+     <!--Home section starts-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>All of Stuff Beads Are</h3>
+            <span>Handmade by Hani</span>
+            <p>Ring, Bracelet, Necklace, Keychain, Phonestrap, Earring Beads, etc!!!</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+        <div class="image">
+            <img src="Beaded rings.jpg" width="700px" alt="">
+        </div>
+     </section>
+    <!--Home section ends-->
+
+
+  <!--About section starts-->
+<section class="about" id="about">
+    <h1 class="heading"><span>about</span> us</h1>
+    <div class="row">
+        <div class="image">
+            <img src="download (3).jpeg" width="450px" alt="">
+            <h3>best accessories beads sellers</h3>
+        </div>
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Hani's Shop adalah destinasi utama untuk para pecinta kreasi manik-manik yang mencari inspirasi dan perlengkapan terbaik. Dengan dedikasi kami dalam menyediakan ragam aksesoris manik-manik berkualitas tinggi, kami membangun hubungan yang erat dengan komunitas kreatif di seluruh negeri. Dari manik-manik kristal yang berkilauan hingga perlengkapan tata letak yang inovatif, kami memberikan solusi lengkap bagi mereka yang mengikuti tren terbaru atau menciptakan karya unik mereka sendiri.
+            </p>
+            <p>Dibangun atas cinta akan kerajinan tangan dan keindahan detail, kami di sini untuk membantu setiap langkah dari proses kreatif Anda. Dengan berbagai produk terbaru dan bahan-bahan berkualitas, toko kami adalah tempat yang sempurna untuk mengeksplorasi imajinasi Anda. Jadikan setiap perhiasan Anda bercerita, dan temukan kepuasan dalam membuat sesuatu yang unik dan memikat. Selamat datang di rumah bagi para pencari inspirasi dan alat kreatif, di mana setiap manik-manik adalah potensi karya seni yang menunggu untuk diungkapkan.</p>
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+    </div>
+</section>
+  <!--About section ends-->
+
+
+<!--Products section stars-->
+<section class="products" id="products">
+    <h1 class="heading">latest <span>products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="product 1.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk1()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(1)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Phonestrap Beads</h3>
+                <div class="price">Rp. 28.000</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="product 2.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk2()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(2)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Keychain Beads</h3>
+                <div class="price">Rp. 36.000</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="product 3.png" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk3()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(3)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Ring Beads</h3>
+                <div class="price">Rp. 13.750</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="product 4.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk4()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(4)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Necklace Beads</h3>
+                <div class="price">Rp. 36.000</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="product 5.png" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk5()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(5)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Bracelet Beads</h3>
+                <div class="price">Rp. 7.500</div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="product 6.jpg" alt="">
+                <div class="card-footer d-md-flex">
+                    <a class="btn btn-sm btn-primary d-block btnBeli" onclick="beliProduk6()">Beli</a>
+                    <a class="btn btn-sm btn-secondary d-block btnKeranjang" onclick="tambahKeKeranjang(6)">Keranjang</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Earring Beads</h3>
+                <div class="price">Rp. 135.000</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Products section ends-->
+
+<!-- Keranjang -->
+<div id="Keranjang" class="px-4 py-4">
+    <h3 class="text-center">Keranjang Belanja</h3>
+    <ul id="listKeranjang" class="list-group">
+    </ul>
+    <div id="totalHarga" class="text-center mt-3"></div>
+    <div class="text-center mt-3">
+        <button class="btn btn-danger" onclick="kosongkanKeranjang()">Kosongkan Keranjang</button>
+        <button class="btn btn-success" onclick="beliSemuaProduk()">Beli</button>
+    </div>
+          </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+    var keranjang = [];
+
+    function tambahKeKeranjang(id) {
+        var produk;
+        if (id === 1) {
+            produk = { nama: "Phonestrap Beads", harga: 28000 };
+        } else if (id === 2) {
+            produk = { nama: "Keychain Beads", harga: 36000 };
+        } else if (id === 3) {
+            produk = { nama: "Ring Beads", harga: 13750 };
+        } else if (id === 4) {
+            produk = { nama: "Necklace Beads", harga: 36000 };
+        } else if (id === 5) {
+            produk = { nama: "Bracelet Beads", harga: 7500 };
+        } else if (id === 6) {
+            produk = { nama: "Earring Beads", harga: 135000 };
+        } 
+
+        keranjang.push(produk);
+        tampilkanKeranjang();
+    }
+    function tampilkanKeranjang() {
+            var listKeranjang = document.getElementById("listKeranjang");
+            var totalHarga = 0;
+            listKeranjang.innerHTML = "";
+            keranjang.forEach(function(produk) {
+                var listItem = document.createElement("li");
+                listItem.className = "list-group-item";
+                listItem.textContent = produk.nama + " - Rp. " + produk.harga.toLocaleString();
+                listKeranjang.appendChild(listItem);
+                totalHarga += produk.harga;
+            });
+            var totalHargaElement = document.getElementById("totalHarga");
+            totalHargaElement.textContent = "Total Harga: Rp. " + totalHarga.toLocaleString();
+        }
+
+        function kosongkanKeranjang() {
+            keranjang = [];
+            tampilkanKeranjang();
+        }
+        function beliSemuaProduk() {
+            // Ganti nomor WhatsApp dengan nomor toko Anda
+            var nomorWhatsApp = "6282121779009";
+            var pesan = "Halo, saya ingin membeli produk: ";
+            keranjang.forEach(function(produk) {
+                pesan += produk.nama + ", ";
+            });
+            pesan += ". Terima kasih!";
+            var urlWhatsApp = "https://wa.me/" + nomorWhatsApp + "?text=" + encodeURIComponent(pesan);
+            window.open(urlWhatsApp, "_blank");
+        }
+</script>
+
+<script>
+function beliProduk1() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/kawaiicraft/gantungan-kunci-beads-phonestrap-gantungan-hp-aksesoris-emerald?extParam=ivf%3Dfalse%26src%3Dsearch&refined=true";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk2() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/payut/promo-jellyfish-star-pink-keychain-jellyfish-keychain-beads-termurah?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk3() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/safitiri/cincin-manik-korea-isi-6-free-sticker-cincin-korea-beads-ring-cinc?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk4() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/archive-homepita/choker-necklace-kalung-beads-manik-korea-d?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk5() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/grosirxuping01/gelang-korea-bracelet-beads-estetik-mote-pink-series-gk01-b-a31-6e22d?extParam=ivf%3Dfalse%26src%3Dsearch";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+function beliProduk6() {
+    // situs web lain
+    var urlProduk = "https://www.tokopedia.com/elgra/caraline-elgra-gold-plated-multiway-hoop-beaded-flower-earrings-white-2b7fd?extParam=ivf%3Dfalse&src=topads";
+    // Buka halaman produk di situs web lain
+    window.open(urlProduk, "_blank");
+}
+
+</script>
+
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+    <div class="row">
+        <form action="">
+            <input type="text" class="box" placeholder="Name">
+            <input type="email" class="box" placeholder="Email">
+            <input type="number" class="box" placeholder="Number">
+            <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send massage" class="btn">
+            </form>
+        <div class="image">
+            <img src="Little bead shop.jpeg" width="500px" alt="">
+        </div>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="https://wa.me/+6283821283829">WhatsApp: 083821283829</a>
+            <a href="https://www.instagram.com/jehaaaya?igsh=MTF1bHFvcnN3MjdpeQ==">Instragram: jehaaaya</a>
+            <a href="https://www.tiktok.com/@pepepeeh?_t=8mTeZXjIidF&_r=1">Tiktok: pepepeeh</a>
+          <img src="/images/payment.png" alt="">
+        </div>
+    </div>
+    <div class="credit">
+        <small>Copyright &copy; 2024 - Hanifah Kurnia Asih</small>
+    </div>
+</section>
+
+<!--footer section ends-->
+
+
+</body>
+</html>
